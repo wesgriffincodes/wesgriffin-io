@@ -8,7 +8,7 @@ const NavMobile = () => {
   const [open, setOpen] = useState(false);
  
   return (
-    <div className='Nav'>
+    <div className='NavMobile'>
       <div className='left'>
         <Link to='/' className='logo'>
           <img src={logoImg} alt="W"/>
