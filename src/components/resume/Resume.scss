@@ -1,0 +1,13 @@
+.Resume {
+position: absolute;
+z-index: 99999;
+left: 5%;
+min-width: 60vw;
+    min-height: 80vh;
+    border: yellow solid 3px;
+
+  img {
+    width: auto;
+    height: 75%;
+  }
+}
