@@ -3,7 +3,7 @@ import './About.scss';
 // import Arrow from '../home/homeDesktop/Arrow';
 // import { Link } from 'react-router-dom';
 import Footer from '../footer/Footer';
-import { FaReact, FaNodeJs, FaNode } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaNode, FaPlug } from 'react-icons/fa';
 import { DiMongodb, DiFirebase } from 'react-icons/di';
 import { useSpring, animated } from 'react-spring';
 
@@ -44,7 +44,7 @@ const About = () => {
 
         <div className='mySkills'>
           <div className='leftSkill'>
-            <h1>My Specialties</h1>
+            <h1>My Skills</h1>
           </div>
           <div className='rightSkill'>
             <div>
@@ -70,6 +70,10 @@ const About = () => {
             <div>
               <DiFirebase className='icon'/>
               <h3>Firebase</h3>
+            </div>
+            <div>
+              <FaPlug className='icon'/>
+              <h3>Socket.io</h3>
             </div>
           </div>
         </div>
