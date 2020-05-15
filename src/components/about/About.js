@@ -53,7 +53,7 @@ const About = () => {
             </div>
             <div>
               <FaNodeJs className='icon'/>
-              <h3>Express</h3>
+              <h3>Expres</h3>
             </div>
             <div>
               <DiMongodb className='icon'/>
