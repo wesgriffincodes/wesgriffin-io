@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Software Developer',
-    name: 'Poser Genius',
+    name: 'Wes Griffin',
     number: 1,
     paragraph: `Wow, Look at how responsive this site is! You can't stop staring, it's like a autostereogram from the mid 90's.
     Full site is still in production. Feel free to follow me with the links below.`,
