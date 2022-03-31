@@ -12,7 +12,7 @@ const Footer = () => {
         <Link 
           to="route" 
           onClick={(e) => 
-          {e.preventDefault(); window.open('https://github.com/codingclueless');}
+          {e.preventDefault(); window.open('https://github.com/wesgriffincodes');}
           }>
           <FaGithubSquare className='icon'/>
         </Link>
