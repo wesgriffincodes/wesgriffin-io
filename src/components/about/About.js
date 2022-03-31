@@ -7,18 +7,6 @@ import { GrGraphQl } from 'react-icons/gr';
 import { useSpring, animated } from 'react-spring';
 
 const About = () => {
-
-  // const textLeft = (
-  //   <div style={{ transform: 'rotate(180deg)' }}>
-  //     <p>Connect</p>
-  //   </div>
-  // );
-  // const textRight = (
-  //   <div style={{ transform: 'rotate(0deg)' }}>
-  //     <p>Connect</p>
-  //   </div>
-  // );
-
   const aboutMeBg = useSpring({ from: { opacity: 0, transform: 'translateY(200px)' }, opacity: 1, transition: '1.5s ease-out', transform: 'translateY(0px)' });
   const aboutMe = useSpring({ from: { opacity: 0, transform: 'translateY(-250px)' }, opacity: 1, transition: '1.5s ease-out', transform: 'translateY(0px)' });
 
@@ -110,31 +98,3 @@ const About = () => {
 };
 
 export default About;
-
-// TODO: add in later
-// <div className={styles.links}>
-//   <div className={styles.linkLeft}>
-//     <p>follow me</p>
-//     <h1>LinkedIn</h1>
-            
-//     <Link 
-//       className={styles.leftArrow}
-//       to="route" 
-//       onClick={(e) => 
-//       {e.preventDefault(); window.open('https://www.linkedin.com/in/wesgriffincodes/');}
-//       }>
-//       <Arrow rotate='180deg' text={textLeft}/>
-//     </Link>
-//   </div>
-//   <div className={styles.linkRight}>
-//     <p>follow me</p>
-//     <h1>Instagram</h1>
-//     <Link 
-//       to="route" 
-//       onClick={(e) => 
-//       {e.preventDefault(); window.open('https://www.instagram.com/codingclueless/');}
-//       }>
-//       <Arrow text={textRight}/>
-//     </Link>   
-//   </div>
-// </div>;
