@@ -19,7 +19,7 @@ const Footer = () => {
         <Link 
           to="route" 
           onClick={(e) => 
-          {e.preventDefault(); window.open('https://www.instagram.com/codingclueless/');}
+          {e.preventDefault(); window.open('https://www.instagram.com/codingclueless');}
           }>
           <FaInstagram className='icon'/>
         </Link>
