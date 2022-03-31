@@ -1,10 +1,9 @@
 import React from 'react';
 import './About.scss';
-// import Arrow from '../home/homeDesktop/Arrow';
-// import { Link } from 'react-router-dom';
 import Footer from '../footer/Footer';
 import { FaReact, FaNodeJs, FaNode, FaPlug } from 'react-icons/fa';
 import { DiMongodb, DiFirebase } from 'react-icons/di';
+import { GrGraphQl } from 'react-icons/gr';
 import { useSpring, animated } from 'react-spring';
 
 const About = () => {
@@ -56,6 +55,10 @@ const About = () => {
               <h3>Express</h3>
             </div>
             <div>
+              <GrGraphQl className='icon'/>
+              <h3>Graphql</h3>
+            </div>
+            <div>
               <DiMongodb className='icon'/>
               <h3>MongoDb</h3>
             </div>
@@ -64,7 +67,7 @@ const About = () => {
               <h3>Node.js</h3>
             </div>
             <div>
-              <p>05</p>
+              <p>N</p>
               <h3>Next.js</h3>
             </div>
             <div>
@@ -83,6 +86,10 @@ const About = () => {
             <h1>Experience</h1>
           </div>
           <div className='rightEx'>
+            <div>
+              <h3>Allocations llc</h3>
+              <p>- 2021-2022</p>
+            </div>
             <div>
               <h3>App Lab</h3>
               <p>- 2019-2020</p>
