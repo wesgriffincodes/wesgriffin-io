@@ -15,7 +15,7 @@ const About = () => {
 
       <animated.div style={aboutMeBg} className='aboutMe'>
       </animated.div>
-      <animated.h1 style={aboutMe} className='aboutH1'>About Me</animated.h1>
+      <animated.h1 style={aboutMe} className='aboutH1'>About M</animated.h1>
 
       <div className='bottom'>
         <div className='myStory'>
