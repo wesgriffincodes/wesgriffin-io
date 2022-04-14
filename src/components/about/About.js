@@ -21,7 +21,7 @@ const About = () => {
         <div className='myStory'>
           <h1>My Story</h1>
           <p>
-            {`I'm a MERN stack ninja with a desire to cut code 
+            {`I'm a MERN stack ninja with a desire to cut code! 
           Honestly I got into the coding world because I was always intrigued with what was going on behind the scenes. 
           Software development is like a puzzle that never ends, yet I'm happy to try and find the corners.
           Whether it's a backend that needs to supply data or a front-end that is set to blow the minds away of its users, it's all fun to piece together.
