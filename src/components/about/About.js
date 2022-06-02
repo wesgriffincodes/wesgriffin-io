@@ -84,7 +84,7 @@ const About = () => {
             </div>
             <div>
               <h3>Alchemy Code Lab</h3>
-              <p>- 201</p>
+              <p>- 2019</p>
             </div>
           </div>
         </div>
