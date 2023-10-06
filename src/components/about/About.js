@@ -55,7 +55,7 @@ const About = () => {
               <h3>Node.js</h3>
             </div>
             <div>
-              <p>N</p>
+              <p></p>
               <h3>Next.js</h3>
             </div>
             <div>
